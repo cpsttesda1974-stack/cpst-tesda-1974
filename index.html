@@ -23,7 +23,7 @@
   </head>
 
   <body class="font-['Quicksand']">
-    <nav class="fixed w-screen bg-[#004e64] z-20 w-full max-w-full">
+    <nav class="fixed w-screen bg-[#004e64] z-20 w-full max-w-full ">
       <div class="text-center md:px-36">
         <div
           class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -616,10 +616,10 @@
           >
             <a
               href="#"
-              class="flex flex-col h-full border border-gray-200 rounded-xl shadow-sm overflow-hidden bg-white card-hover"
+              class="flex flex-col h-full  border border-gray-200 rounded-xl shadow-sm overflow-hidden bg-white card-hover"
             >
               <img
-                class="object-cover w-full h-full mx-auto"
+                class="object-cover w-full h-full mx-auto z-1"
                 src="FINALBOSSSSS.jpg"
                 alt="Reynaldo T. Ramos"
               />
@@ -964,6 +964,12 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+});
     </script>
   </body>
 </html>
